@@ -1,0 +1,3 @@
+include ':ScheduleView'
+include ':app'
+rootProject.name = "ScheduleViewDemo"
