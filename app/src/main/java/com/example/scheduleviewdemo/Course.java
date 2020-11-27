@@ -5,15 +5,17 @@ public class Course {
     private int weekType;
     private int timeX;
     private int timeY;
+    private int type;
 
     public Course() {
     }
 
-    public Course(int week, int weekType, int timeX, int timeY) {
+    public Course(int week, int weekType, int timeX, int timeY,int type) {
         this.week = week;
         this.weekType = weekType;
         this.timeX = timeX;
         this.timeY = timeY;
+        this.type = type;
     }
 
     public void setTimeX(int timeX) {
@@ -34,6 +36,10 @@ public class Course {
 
     public int getTimeY() {
         return timeY;
+    }
+
+    public int getType() {
+        return type;
     }
 }
 

@@ -28,6 +28,8 @@ class ScheduleView : GridLayout{
             val columnSpec = spec(adapter!!.getDay(i), 1)
             val params =
                 LayoutParams(rowSpec, columnSpec)
+            params.width = (this.width-48)/columnCount
+            params.height = (this.height-48)/rowCount * (t.second - t.first +1)
             params.setMargins(5,5,5,5)
             params.setGravity(Gravity.CENTER and Gravity.FILL)
             this.addView(adapter!!.getView(i),params)
