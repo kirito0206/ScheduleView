@@ -1,4 +1,6 @@
 # 基于GridLayout的自定义日程信息控件ScheduleView
+## 效果图
+![image](https://github.com/kirito0206/ScheduleViewDemo/blob/master/picture/test.jpg)
 ## 添加依赖库
 Add it in your root build.gradle at the end of repositories:
 ```
